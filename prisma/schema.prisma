@@ -1,0 +1,95 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Faculty {
+  id          String    @id @default(cuid())
+  name        String
+  designation String    // e.g., "Assistant Professor", "Professor"
+  maxLoad     Int       @default(12) // Max periods per week
+  department  String?   // Linked to Section department logic
+  subjects    Subject[] @relation("FacultySubjects")
+  timetables  Timetable[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Section {
+  id          String      @id @default(cuid())
+  name        String      // e.g., "CSE-A"
+  department  String      // e.g., "CSE"
+  year        Int         // 1, 2, 3, 4
+  semester    Int         // 1, 2
+  subjects    Subject[]   @relation("SectionSubjects")
+  timetables  Timetable[]
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+}
+
+model Subject {
+  id          String    @id @default(cuid())
+  code        String    @unique
+  name        String
+  isLab       Boolean   @default(false)
+  duration    Int       @default(1) // Duration of ONE session (e.g. 1 hour)
+  sessionsPerWeek Int   @default(4) // How many times per week? (e.g. 4 for Theory, 1 for Lab)
+  faculty     Faculty[] @relation("FacultySubjects")
+  sections    Section[] @relation("SectionSubjects")
+  timetables  Timetable[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Room {
+  id          String      @id @default(cuid())
+  name        String      @unique // e.g., "LH-101", "Lab-1"
+  capacity    Int?
+  timetables  Timetable[]
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+}
+
+model Timetable {
+  id          String   @id @default(cuid())
+  day         String   // MON, TUE, WED, THU, FRI, SAT
+  slot        Int      // 1 to 7
+  startTime   String   // "09:00"
+  endTime     String   // "09:55"
+  
+  sectionId   String
+  section     Section  @relation(fields: [sectionId], references: [id])
+  
+  facultyId   String?
+  faculty     Faculty? @relation(fields: [facultyId], references: [id])
+  
+  subjectId   String?
+  subject     Subject? @relation(fields: [subjectId], references: [id])
+  
+  roomId      String?
+  room        Room?    @relation(fields: [roomId], references: [id])
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([day, slot, sectionId]) // No double booking for section
+  @@unique([day, slot, facultyId]) // No double booking for faculty
+  @@unique([day, slot, roomId])    // No double booking for room
+}
+
+model User {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  role        String   // "PRINCIPAL", "HOD", "FACULTY"
+  department  String?  // Linked to specific department for HOD
+  facultyId   String?  // Optional link to Faculty profile
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}

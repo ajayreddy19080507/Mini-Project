@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --background: 240 5% 96%;
+  /* #F5F5F7 */
+  --foreground: 0 0% 10%;
+
+  --glass-border: 0 0% 100% / 0.2;
+  --glass-bg: 0 0% 100% / 0.6;
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+@layer utilities {
+  .glass {
+    background-color: rgb(255 255 255 / 0.6);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgb(255 255 255 / 0.2);
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  }
+
+  .glass-card {
+    background-color: rgb(255 255 255 / 0.7);
+    backdrop-filter: blur(40px);
+    border: 1px solid rgb(255 255 255 / 0.4);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    border-radius: 1rem;
+  }
+
+  .text-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, rgb(17 24 39), rgb(75 85 99));
+  }
+}
+
+body {
+  background: #F5F5F7;
+}
