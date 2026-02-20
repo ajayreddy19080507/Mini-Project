@@ -53,6 +53,10 @@ export default function DashboardLayout({
 
                     <NavItem href="/dashboard/timetable" icon={<Calendar />} label="View Timetables" />
                     <NavItem href="/dashboard/subjects" icon={<BookOpen />} label="Subjects" />
+                    <div className="pt-2 mt-2 border-t border-gray-100">
+                        <NavItem href="/dashboard/workload" icon={<Users className="w-4 h-4" />} label="Faculty Workload" />
+                        <NavItem href="/dashboard/live" icon={<span className="text-red-500 animate-pulse">●</span>} label="Live Status" />
+                    </div>
                 </nav>
 
                 <div className="p-4 border-t border-gray-100">

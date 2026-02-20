@@ -51,6 +51,7 @@ model Subject {
 model Room {
   id          String      @id @default(cuid())
   name        String      @unique // e.g., "LH-101", "Lab-1"
+  type        String      @default("THEORY") // "THEORY" or "LAB"
   capacity    Int?
   timetables  Timetable[]
   createdAt   DateTime    @default(now())
