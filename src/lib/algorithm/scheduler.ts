@@ -97,25 +97,31 @@ export async function generateTimetable() {
         }
     }
 
-    // 3. Shuffle then Sort Events
-    // First, calculate frequencies
-    const freqMap = new Map<string, number>();
+    // 3. Heuristic Sorting Events (Crucial for deep strict constraint solving)
+    // We perfectly group Theory and Lab subjects of the same section together so the Backtracker resolves them adjacent to each other.
+    const getBaseCodeSort = (code: string | undefined) => code ? code.replace(/L(?=\d)/, '') : "";
+
+    // Determine which BaseCode groups contain a Lab to prioritize them
+    const groupHasLab = new Map<string, boolean>();
     for (const e of events) {
-        freqMap.set(e.subjectId, (freqMap.get(e.subjectId) || 0) + 1);
+        const groupKey = `${e.sectionId}-${getBaseCodeSort(subjectMap.get(e.subjectId))}`;
+        if (e.isLab) groupHasLab.set(groupKey, true);
     }
 
-    // Shuffle slightly to add randomness between equivalent-frequency items
-    for (let i = events.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [events[i], events[j]] = [events[j], events[i]];
-    }
-
-    // Sort by Duration (Lab first) -> Frequency (5-timers first)
     events.sort((a, b) => {
-        if (b.duration !== a.duration) return b.duration - a.duration;
-        const freqA = freqMap.get(a.subjectId) || 0;
-        const freqB = freqMap.get(b.subjectId) || 0;
-        return freqB - freqA;
+        const groupA = `${a.sectionId}-${getBaseCodeSort(subjectMap.get(a.subjectId))}`;
+        const groupB = `${b.sectionId}-${getBaseCodeSort(subjectMap.get(b.subjectId))}`;
+
+        // 1. Prioritize groups that have a Lab component (we must place 3-hour blocks earliest)
+        const aHasLab = groupHasLab.get(groupA) ? 1 : 0;
+        const bHasLab = groupHasLab.get(groupB) ? 1 : 0;
+        if (aHasLab !== bHasLab) return bHasLab - aHasLab;
+
+        // 2. Keep the exact groups together
+        if (groupA !== groupB) return groupA.localeCompare(groupB);
+
+        // 3. Within the group, place the Lab (duration > 1) first, then the theory classes
+        return b.duration - a.duration;
     });
 
     // 4. Solve
@@ -321,7 +327,7 @@ function isValid(
             return getBaseCode(subjectMap.get(b.subjectId)) === currentBaseCode;
         })?.facultyId;
 
-        if (previouslyAssignedFaculty && previouslyAssignedFaculty !== facultyId && limit.count < 50000) {
+        if (previouslyAssignedFaculty && previouslyAssignedFaculty !== facultyId) {
             return false; // Force the same faculty to teach all sessions of this subject (Theory + Lab) for this section
         }
     }
@@ -344,7 +350,7 @@ function isValid(
         if (fData) {
             // If this is the FIRST time assigning this faculty to this base code...
             // the faculty MUST have enough room for the ENTIRE base code duration.
-            if (!previouslyAssignedFaculty && limit.count < 50000) {
+            if (!previouslyAssignedFaculty) {
                 const totalBaseCodeHours = baseCodeDurations.get(event.sectionId + "-" + currentBaseCode) || event.duration;
                 if (facultyWeekly + totalBaseCodeHours > fData.maxLoad) {
                     return false; // Early pruning: Not enough load to take the whole course 

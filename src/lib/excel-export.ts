@@ -82,32 +82,94 @@ export async function generateExcelBuffer() {
 
     // Workload Sheet
     const workloadSheet = workbook.addWorksheet('Faculty Workload');
-    workloadSheet.columns = [
-        { header: 'Faculty Name', key: 'name', width: 25 },
-        { header: 'Designation', key: 'designation', width: 20 },
-        { header: 'Total Load (Periods)', key: 'load', width: 20 },
-        { header: 'Details', key: 'details', width: 80 }
-    ];
-
-    const faculty = await prisma.faculty.findMany({
-        include: { timetables: { include: { section: true, subject: true } } }
-    });
-
-    for (const f of faculty) {
-        const details = f.timetables.map(t => `${t.day} P${t.slot} (${t.section.name})`).join(", ");
-        workloadSheet.addRow({
-            name: f.name,
-            designation: f.designation,
-            load: f.timetables.length,
-            details: details
-        });
+    // Define column widths for the 2-block layout: 
+    // Left Block: A (Day), B-H (Periods 1-7). Column I: Spacer. Right Block: J (Day), K-Q (Periods 1-7)
+    for (let c = 1; c <= 17; c++) {
+        if (c === 9) {
+            workloadSheet.getColumn(c).width = 4; // Spacer column I
+        } else if (c === 1 || c === 10) {
+            workloadSheet.getColumn(c).width = 8; // Day columns
+        } else {
+            workloadSheet.getColumn(c).width = 15; // Period columns
+        }
     }
 
-    // Style Workload header
-    workloadSheet.getRow(1).eachCell(cell => {
-        cell.font = { bold: true };
-        cell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFD3D3D3' } };
+    const faculty = await prisma.faculty.findMany({
+        include: {
+            timetables: { include: { section: true, subject: true } },
+            subjects: true
+        }
     });
+
+    let currentRow = 2; // Start on row 2 for top padding
+    for (let i = 0; i < faculty.length; i++) {
+        const f = faculty[i];
+
+        const isRightColumn = i % 2 !== 0;
+        const colOffset = isRightColumn ? 10 : 1; // 1 = A, 10 = J
+
+        // Move down 10 rows for every new pair of faculties
+        if (i > 0 && !isRightColumn) {
+            currentRow += 10;
+        }
+
+        // 1. Faculty Yellow Header Row
+        workloadSheet.mergeCells(currentRow, colOffset, currentRow, colOffset + 7);
+        const headerCell = workloadSheet.getCell(currentRow, colOffset);
+
+        // e.g. "Mr. P.BHASKAR - CNS A,B, IPR-C(15)"
+        const subjectCodes = f.subjects.map(s => s.code).join(',');
+        headerCell.value = `${f.name} - ${subjectCodes} (${f.timetables.length})`;
+        headerCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFFFFF00' } }; // Yellow
+        headerCell.font = { bold: true };
+        headerCell.alignment = { horizontal: 'center', vertical: 'middle' };
+
+        for (let c = colOffset; c <= colOffset + 7; c++) {
+            workloadSheet.getCell(currentRow, c).border = { top: { style: 'thin' }, left: { style: 'thin' }, bottom: { style: 'thin' }, right: { style: 'thin' } };
+        }
+
+        // 2. Period Numbers Row (1 to 7)
+        const periodRow = currentRow + 1;
+        workloadSheet.getCell(periodRow, colOffset).value = ''; // Corner is blank
+        workloadSheet.getCell(periodRow, colOffset).border = { top: { style: 'thin' }, left: { style: 'thin' }, bottom: { style: 'thin' }, right: { style: 'thin' } };
+
+        for (let p = 1; p <= 7; p++) {
+            const cell = workloadSheet.getCell(periodRow, colOffset + p);
+            cell.value = p;
+            cell.alignment = { horizontal: 'center', vertical: 'middle' };
+            cell.border = { top: { style: 'thin' }, left: { style: 'thin' }, bottom: { style: 'thin' }, right: { style: 'thin' } };
+        }
+
+        // 3. Days Grid (MON to SAT)
+        const dayAbbrs = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        const dbDays = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+        for (let dIndex = 0; dIndex < 6; dIndex++) {
+            const r = currentRow + 2 + dIndex;
+
+            // Day label cell
+            const dayCell = workloadSheet.getCell(r, colOffset);
+            dayCell.value = dayAbbrs[dIndex];
+            dayCell.alignment = { horizontal: 'center', vertical: 'middle' };
+            dayCell.border = { top: { style: 'thin' }, left: { style: 'thin' }, bottom: { style: 'thin' }, right: { style: 'thin' } };
+
+            // Find classes for this day
+            for (let p = 1; p <= 7; p++) {
+                const cell = workloadSheet.getCell(r, colOffset + p);
+
+                const entry = f.timetables.find(t => t.day === dbDays[dIndex] && t.slot === p);
+                if (entry) {
+                    const subj = entry.subject?.name || entry.subject?.code || '';
+                    const sec = entry.section.name || '';
+                    cell.value = `${subj}-${sec}`;
+                } else {
+                    cell.value = '';
+                }
+
+                cell.alignment = { horizontal: 'center', vertical: 'middle', wrapText: true };
+                cell.border = { top: { style: 'thin' }, left: { style: 'thin' }, bottom: { style: 'thin' }, right: { style: 'thin' } };
+            }
+        }
+    }
 
     const buffer = await workbook.xlsx.writeBuffer();
     return buffer as unknown as Buffer;
