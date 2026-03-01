@@ -5,6 +5,7 @@ import { prisma } from '@/lib/db';
 interface FacultyRow {
     Name: string;
     Designation: string; // "Assistant Professor", "Professor", etc.
+    Department?: string; // e.g. "CSE"
     MaxLoad?: number;    // Optional override
     Subjects: string;    // Comma separated codes
 }
@@ -21,6 +22,7 @@ interface SubjectRow {
     Name: string;
     Type: "Theory" | "Lab";
     Duration: number; // 1 or 3
+    SessionsPerWeek?: number; // e.g. 4 for theory, 1 for lab
 }
 
 export async function parseAndImportExcel(fileBuffer: Buffer) {
@@ -100,13 +102,15 @@ async function importSubjects(rows: SubjectRow[]) {
             update: {
                 name: row.Name,
                 isLab: row.Type === 'Lab',
-                duration: row.Duration || (row.Type === 'Lab' ? 3 : 1)
+                duration: row.Duration ? Number(row.Duration) : (row.Type === 'Lab' ? 3 : 1),
+                sessionsPerWeek: row.SessionsPerWeek ? Number(row.SessionsPerWeek) : (row.Type === 'Lab' ? 1 : 4)
             },
             create: {
                 code: String(row.Code),
                 name: row.Name,
                 isLab: row.Type === 'Lab',
-                duration: row.Duration || (row.Type === 'Lab' ? 3 : 1)
+                duration: row.Duration ? Number(row.Duration) : (row.Type === 'Lab' ? 3 : 1),
+                sessionsPerWeek: row.SessionsPerWeek ? Number(row.SessionsPerWeek) : (row.Type === 'Lab' ? 1 : 4)
             }
         });
     }
@@ -124,9 +128,10 @@ async function importFaculty(rows: FacultyRow[]) {
 
         await prisma.faculty.create({
             data: {
-                name: row.Name,
-                designation: row.Designation,
-                maxLoad: row.MaxLoad || 12,
+                name: String(row.Name),
+                designation: String(row.Designation),
+                department: row.Department ? String(row.Department) : "General",
+                maxLoad: row.MaxLoad ? Number(row.MaxLoad) : 12,
                 subjects: {
                     connect: subjects.map(s => ({ id: s.id }))
                 }

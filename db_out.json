@@ -1,0 +1,185 @@
+{
+  "summary": {
+    "TheoryHoursNeeded": 114,
+    "LabHoursNeeded": 12,
+    "TotalHoursNeeded": 126,
+    "TotalFacultyCapacity": 167,
+    "TotalRooms": 6,
+    "LabRooms": 2,
+    "TheoryRooms": 4
+  },
+  "faculties": [
+    {
+      "name": "Sai Phani ",
+      "maxLoad": 16,
+      "subjects": [
+        "CS101",
+        "CSL101"
+      ]
+    },
+    {
+      "name": "Bhaskar",
+      "maxLoad": 17,
+      "subjects": [
+        "CS102",
+        "CSL102",
+        "CS110"
+      ]
+    },
+    {
+      "name": "Sharmila Devi",
+      "maxLoad": 20,
+      "subjects": [
+        "CS103",
+        "CS110"
+      ]
+    },
+    {
+      "name": "Samuel",
+      "maxLoad": 19,
+      "subjects": [
+        "CS104",
+        "CS110"
+      ]
+    },
+    {
+      "name": "Bholaxmi",
+      "maxLoad": 20,
+      "subjects": [
+        "CS105",
+        "CS110"
+      ]
+    },
+    {
+      "name": "Lavanya",
+      "maxLoad": 9,
+      "subjects": [
+        "CS106"
+      ]
+    },
+    {
+      "name": "Raja",
+      "maxLoad": 9,
+      "subjects": [
+        "CS107"
+      ]
+    },
+    {
+      "name": "Sravanthi",
+      "maxLoad": 9,
+      "subjects": [
+        "CS108"
+      ]
+    },
+    {
+      "name": "Farook",
+      "maxLoad": 3,
+      "subjects": [
+        "CS109"
+      ]
+    },
+    {
+      "name": "Jagadeesh",
+      "maxLoad": 16,
+      "subjects": [
+        "CS101",
+        "CSL101"
+      ]
+    },
+    {
+      "name": "Subba Rao",
+      "maxLoad": 17,
+      "subjects": [
+        "CS102",
+        "CSL102"
+      ]
+    },
+    {
+      "name": "Bhaskar,Bholaxmi",
+      "maxLoad": 12,
+      "subjects": []
+    }
+  ],
+  "sections": [
+    {
+      "name": "A",
+      "subjects": [
+        "CS101",
+        "CS102",
+        "CS103",
+        "CS104",
+        "CS105",
+        "CS106",
+        "CS107",
+        "CS108",
+        "CS109",
+        "CSL101",
+        "CSL102",
+        "CS110",
+        "MM"
+      ]
+    },
+    {
+      "name": "B",
+      "subjects": [
+        "CS101",
+        "CS102",
+        "CS103",
+        "CS104",
+        "CS105",
+        "CS106",
+        "CS107",
+        "CS108",
+        "CS109",
+        "CSL101",
+        "CSL102",
+        "CS110",
+        "MM"
+      ]
+    },
+    {
+      "name": "C",
+      "subjects": [
+        "CS101",
+        "CS102",
+        "CS103",
+        "CS104",
+        "CS105",
+        "CS106",
+        "CS107",
+        "CS108",
+        "CS109",
+        "CSL101",
+        "CSL102",
+        "CS110",
+        "MM"
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "name": "LH-101",
+      "type": "THEORY"
+    },
+    {
+      "name": "LH-102",
+      "type": "THEORY"
+    },
+    {
+      "name": "LH-103",
+      "type": "THEORY"
+    },
+    {
+      "name": "LH-104",
+      "type": "THEORY"
+    },
+    {
+      "name": "CP LAB-1",
+      "type": "LAB"
+    },
+    {
+      "name": "CP LAB-2",
+      "type": "LAB"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { Upload, Play, Users, BookOpen, Download } from "lucide-react";
 import Link from "next/link";
 import { prisma } from "@/lib/db";
 import { GenerateButton } from "@/components/GenerateButton";
+import { ResetButton } from "@/components/ResetButton";
 
 export default async function Dashboard() {
     // Fetch real stats
@@ -30,6 +31,7 @@ export default async function Dashboard() {
                             <Download className="mr-2 h-4 w-4" /> Export Excel
                         </Button>
                     </a>
+                    <ResetButton />
                 </div>
             </div>
 

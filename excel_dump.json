@@ -1,0 +1,136 @@
+{
+  "Subjects": [
+    [
+      "Code",
+      "Name",
+      "Type",
+      "Duration"
+    ],
+    [
+      "CS101",
+      "Programming in C",
+      "Theory",
+      1
+    ],
+    [
+      "CS102",
+      "Data Structures",
+      "Theory",
+      1
+    ],
+    [
+      "CS103",
+      "Database Management",
+      "Theory",
+      1
+    ],
+    [
+      "CS104",
+      "Operating Systems",
+      "Theory",
+      1
+    ],
+    [
+      "CS105",
+      "Computer Networks",
+      "Theory",
+      1
+    ],
+    [
+      "CSL101",
+      "C Programming Lab",
+      "Lab",
+      3
+    ],
+    [
+      "CSL102",
+      "DBMS Lab",
+      "Lab",
+      3
+    ]
+  ],
+  "Faculty": [
+    [
+      "Name",
+      "Designation",
+      "MaxLoad",
+      "Subjects"
+    ],
+    [
+      "Dr. Smith",
+      "Professor",
+      10,
+      "CS101, CS104"
+    ],
+    [
+      "Prof. Johnson",
+      "Associate Professor",
+      12,
+      "CS102, CS105"
+    ],
+    [
+      "Ajay",
+      "Assistant Professor",
+      16,
+      "CS103, CSL102"
+    ],
+    [
+      "Ms. Davis",
+      "Assistant Professor",
+      16,
+      "CSL101, CSL102"
+    ],
+    [
+      "Mr. Wilson",
+      "Assistant Professor",
+      16,
+      "CS101, CS102"
+    ]
+  ],
+  "Sections": [
+    [
+      "Name",
+      "Department",
+      "Year",
+      "Semester"
+    ],
+    [
+      "A",
+      "CSE",
+      1,
+      1
+    ],
+    [
+      "B",
+      "CSE",
+      1,
+      1
+    ],
+    [
+      "A",
+      "CSE",
+      2,
+      1
+    ]
+  ],
+  "Semesters": [
+    [
+      "Department",
+      "Year",
+      "Semester",
+      "Subjects"
+    ],
+    [
+      "CSE",
+      1,
+      1,
+      "CS101, CS102, CSL101"
+    ],
+    [
+      "CSE",
+      2,
+      1,
+      "CS103, CS104, CS105, CSL102"
+    ]
+  ]
+}

@@ -53,6 +53,8 @@ export default function DashboardLayout({
 
                     <NavItem href="/dashboard/timetable" icon={<Calendar />} label="View Timetables" />
                     <NavItem href="/dashboard/subjects" icon={<BookOpen />} label="Subjects" />
+                    <NavItem href="/dashboard/sections" icon={<Users />} label="Sections" />
+                    <NavItem href="/dashboard/rooms" icon={<BookOpen />} label="Rooms" />
                     <div className="pt-2 mt-2 border-t border-gray-100">
                         <NavItem href="/dashboard/workload" icon={<Users className="w-4 h-4" />} label="Faculty Workload" />
                         <NavItem href="/dashboard/live" icon={<span className="text-red-500 animate-pulse">●</span>} label="Live Status" />
@@ -78,6 +80,22 @@ export default function DashboardLayout({
 
             {/* Main Content */}
             <main className="flex-1 overflow-auto p-4 md:p-8">
+                <div className="mb-8 w-full bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200">
+                    <img
+                        src="/header.png"
+                        alt="Santhiram Engineering College Banner"
+                        className="w-full h-auto max-h-32 object-contain hidden"
+                        onLoad={(e) => {
+                            (e.target as HTMLImageElement).classList.remove('hidden');
+                            const fallback = document.getElementById('banner-fallback');
+                            if (fallback) fallback.style.display = 'none';
+                        }}
+                    />
+                    <div id="banner-fallback" className="w-full h-32 flex flex-col items-center justify-center bg-gray-50 border-2 border-dashed border-gray-300 rounded-xl" style={{ display: 'flex' }}>
+                        <span className="text-gray-500 font-medium text-lg">College Banner Placement</span>
+                        <span className="text-gray-400 text-sm mt-1">Please save your image as <b>public/header.png</b> to display it here.</span>
+                    </div>
+                </div>
                 {children}
             </main>
         </div>

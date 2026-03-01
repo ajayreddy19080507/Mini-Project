@@ -12,6 +12,7 @@ interface Faculty {
     designation: string;
     department: string | null;
     maxLoad: number;
+    subjects?: { code: string }[];
 }
 
 export default function FacultyPage() {
@@ -26,6 +27,7 @@ export default function FacultyPage() {
     const [newDesg, setNewDesg] = useState("Assistant Professor");
     const [newDept, setNewDept] = useState("CSE");
     const [newLoad, setNewLoad] = useState(12);
+    const [newSubjects, setNewSubjects] = useState(""); // Comma separated codes
 
     const fetchFaculty = async () => {
         if (!user?.email) return;
@@ -37,7 +39,7 @@ export default function FacultyPage() {
             if (res.ok) {
                 const data = await res.json();
                 if (user.role === "HOD" && user.department) {
-                    setFaculty(data.filter((f: Faculty) => f.department === user.department));
+                    setFaculty(data.filter((f: any) => f.department === user.department));
                 } else {
                     setFaculty(data);
                 }
@@ -53,12 +55,13 @@ export default function FacultyPage() {
         if (user) fetchFaculty();
     }, [user]);
 
-    const startEdit = (f: Faculty) => {
+    const startEdit = (f: any) => {
         setEditingId(f.id);
         setNewName(f.name);
         setNewDesg(f.designation);
         setNewDept(f.department || "");
         setNewLoad(f.maxLoad);
+        setNewSubjects(f.subjects ? f.subjects.map((s: any) => s.code).join(", ") : "");
         setShowAddForm(true);
     };
 
@@ -70,11 +73,12 @@ export default function FacultyPage() {
             const url = "/api/faculty";
             const method = editingId ? "PUT" : "POST";
             const payload = {
-                id: editingId, // backend should ignore if POST
+                id: editingId,
                 name: newName,
                 designation: newDesg,
                 maxLoad: newLoad,
                 department: user.role === "HOD" ? user.department : newDept,
+                subjectCodes: newSubjects
             };
 
             const res = await fetch(url, {
@@ -90,9 +94,10 @@ export default function FacultyPage() {
                 setShowAddForm(false);
                 setEditingId(null);
                 setNewName("");
+                setNewSubjects("");
                 fetchFaculty();
             } else {
-                alert("Failed to save");
+                alert("Failed to save. Make sure the Subject Codes exist.");
             }
         } catch (e) {
             console.error(e);
@@ -132,7 +137,7 @@ export default function FacultyPage() {
                     </p>
                 </div>
                 {canEdit && (
-                    <Button onClick={() => { setShowAddForm(!showAddForm); setEditingId(null); setNewName(""); }}>
+                    <Button onClick={() => { setShowAddForm(!showAddForm); setEditingId(null); setNewName(""); setNewSubjects(""); }}>
                         <Plus className="mr-2 h-4 w-4" /> Add Faculty
                     </Button>
                 )}
@@ -152,6 +157,10 @@ export default function FacultyPage() {
                                 <input placeholder="Department" value={newDept} onChange={e => setNewDept(e.target.value)} className="border p-2 rounded" />
                             )}
                             <input type="number" placeholder="Max Load" value={newLoad} onChange={e => setNewLoad(Number(e.target.value))} className="border p-2 rounded" />
+                            <div className="md:col-span-2">
+                                <input placeholder="Subject Codes (comma separated e.g. CS101, CSL101)" value={newSubjects} onChange={e => setNewSubjects(e.target.value)} className="border p-2 rounded w-full" />
+                                <p className="text-xs text-gray-500 mt-1">Leave blank if deciding later.</p>
+                            </div>
                         </div>
                         <div className="flex justify-end gap-2">
                             <Button type="button" variant="ghost" onClick={() => setShowAddForm(false)}>Cancel</Button>
@@ -167,13 +176,18 @@ export default function FacultyPage() {
                         <div>
                             <h3 className="font-semibold">{f.name}</h3>
                             <p className="text-xs text-gray-500">{f.designation} • {f.department || "General"} • Max: {f.maxLoad}</p>
+                            {f.subjects && f.subjects.length > 0 && (
+                                <p className="text-xs text-blue-600 mt-1 font-medium bg-blue-50 inline-block px-2 py-1 rounded">
+                                    Subjects: {f.subjects.map((s: any) => s.code).join(", ")}
+                                </p>
+                            )}
                         </div>
                         {canEdit && (
                             <div className="flex gap-2">
-                                <Button variant="ghost" size="icon" onClick={() => startEdit(f)}>
+                                <Button variant="ghost" className="p-2" onClick={() => startEdit(f)}>
                                     <Edit className="h-4 w-4 text-blue-500" />
                                 </Button>
-                                <Button variant="ghost" size="icon" className="text-red-500 hover:bg-red-50" onClick={() => handleDelete(f.id)}>
+                                <Button variant="ghost" className="p-2 text-red-500 hover:bg-red-50" onClick={() => handleDelete(f.id)}>
                                     <Trash2 className="h-4 w-4" />
                                 </Button>
                             </div>

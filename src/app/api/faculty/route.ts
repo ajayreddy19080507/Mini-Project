@@ -20,29 +20,18 @@ export async function GET(request: Request) {
 
     try {
         let whereClause = {};
-        // If HOD, filter by department (assuming Faculty has department field? 
-        // Wait, Faculty model doesn't have 'department' field directly in schema shown previously?
-        // Let's check schema. Faculty is linked to Subject. Section has Department.
-        // Ah, Faculty usually belongs to a department. I should add `department` to Faculty model.
-        // I will check the schema again. 
-        // If Faculty doesn't have department, I can't filter easily. 
-        // I will add `department` string field to Faculty model now.
-
-        // For now, let's assume I will add it.
         if (user.role === "HOD" && user.department) {
-            // whereClause = { department: user.department }; // Need to update schema
+            whereClause = { department: user.department };
         }
 
         const faculty = await prisma.faculty.findMany({
-            // where: whereClause, // TODO: Enable after schema update
+            where: Object.keys(whereClause).length > 0 ? whereClause : undefined,
             include: { subjects: true }
         });
 
-        // Filter manually if schema update pending
-        // Actually, I really need to update the schema to make this robust.
-
         return NextResponse.json(faculty);
     } catch (error) {
+        console.error("GET Faculty Error:", error);
         return NextResponse.json({ error: "Internal Error" }, { status: 500 });
     }
 }
@@ -55,23 +44,32 @@ export async function POST(request: Request) {
 
     try {
         const body = await request.json();
-        // Validation logic
-        // If HOD, ensure they are adding to their own dept
+
+        let dept = body.department;
         if (user.role === "HOD") {
-            // Force department to match
-            // body.department = user.department;
+            dept = user.department;
         }
+
+        // Process subject codes
+        const subjectCodes: string[] = body.subjectCodes
+            ? body.subjectCodes.split(',').map((c: string) => c.trim()).filter(Boolean)
+            : [];
 
         const newFaculty = await prisma.faculty.create({
             data: {
                 name: body.name,
                 designation: body.designation,
                 maxLoad: parseInt(body.maxLoad),
-                // department: body.department // Needs schema update
-            }
+                department: dept,
+                subjects: {
+                    connect: subjectCodes.map(code => ({ code }))
+                }
+            },
+            include: { subjects: true }
         });
         return NextResponse.json(newFaculty);
     } catch (e) {
+        console.error("POST Faculty Error:", e);
         return NextResponse.json({ error: "Failed to create" }, { status: 500 });
     }
 }
@@ -82,8 +80,39 @@ export async function PUT(request: Request) {
         return NextResponse.json({ error: "Forbidden" }, { status: 403 });
     }
 
-    // ... update logic
-    return NextResponse.json({ success: true });
+    try {
+        const body = await request.json();
+
+        let dept = body.department;
+        if (user.role === "HOD") {
+            dept = user.department;
+        }
+
+        // Process subject codes
+        const subjectCodes: string[] = body.subjectCodes
+            ? body.subjectCodes.split(',').map((c: string) => c.trim()).filter(Boolean)
+            : [];
+
+        const updated = await prisma.faculty.update({
+            where: { id: body.id },
+            data: {
+                name: body.name,
+                designation: body.designation,
+                maxLoad: parseInt(body.maxLoad),
+                department: dept,
+                subjects: {
+                    set: [], // Clear existing
+                    connect: subjectCodes.map(code => ({ code })) // Connect new
+                }
+            },
+            include: { subjects: true }
+        });
+
+        return NextResponse.json(updated);
+    } catch (e) {
+        console.error("PUT Faculty Error:", e);
+        return NextResponse.json({ error: "Failed to update" }, { status: 500 });
+    }
 }
 
 export async function DELETE(request: Request) {
@@ -100,7 +129,6 @@ export async function DELETE(request: Request) {
     }
 
     try {
-        // Optional: Check if HOD is deleting faculty from their own dept
         if (user.role === "HOD") {
             const faculty = await prisma.faculty.findUnique({ where: { id } });
             if (faculty?.department !== user.department) {

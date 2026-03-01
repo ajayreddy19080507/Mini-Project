@@ -37,33 +37,45 @@ export async function generateTimetable() {
         include: { subjects: true }
     });
 
-    const allRooms = await prisma.room.findMany();
+    let allRooms = await prisma.room.findMany();
+
+    // Seed default rooms if they got wiped
+    if (allRooms.length === 0) {
+        console.log("No rooms found, seeding default rooms...");
+        await prisma.room.createMany({
+            data: [
+                { name: "LH-101", type: "THEORY", capacity: 60 },
+                { name: "LH-102", type: "THEORY", capacity: 60 },
+                { name: "LH-103", type: "THEORY", capacity: 60 },
+                { name: "LH-104", type: "THEORY", capacity: 60 },
+                { name: "CP LAB-1", type: "LAB", capacity: 60 },
+                { name: "CP LAB-2", type: "LAB", capacity: 60 },
+            ]
+        });
+        allRooms = await prisma.room.findMany();
+    }
+
     const labRooms = allRooms.filter(r => r.type === "LAB");
     const theoryRooms = allRooms.filter(r => r.type === "THEORY");
-
-    // Fallback if no theory rooms seeded
-    if (theoryRooms.length === 0) {
-        console.warn("No Theory rooms found. Seeding generic ones in memory.");
-        // In a real app, we should fail or seed DB. 
-        // For now, let's assume valid rooms exist or allow null for theory if needed.
-    }
 
     // Clean up old timetables
     await prisma.timetable.deleteMany({});
 
     // 2. Expand Events
     const events: Event[] = [];
+    const subjectMap = new Map<string, string>();
 
     for (const section of sections) {
         for (const subject of section.subjects) {
+            subjectMap.set(subject.id, subject.code);
             if (subject.isLab) {
-                // Labs need 1 session of 3 hours
+                // Labs need 1 session of dynamic duration (default 3 if not specified)
                 events.push({
                     id: `${section.id}-${subject.id}-LAB`,
                     sectionId: section.id,
                     subjectId: subject.id,
                     isLab: true,
-                    duration: 3,
+                    duration: subject.duration || 3,
                     facultyId: null,
                     roomId: null
                 });
@@ -86,30 +98,62 @@ export async function generateTimetable() {
     }
 
     // 3. Shuffle then Sort Events
+    // First, calculate frequencies
+    const freqMap = new Map<string, number>();
+    for (const e of events) {
+        freqMap.set(e.subjectId, (freqMap.get(e.subjectId) || 0) + 1);
+    }
+
+    // Shuffle slightly to add randomness between equivalent-frequency items
     for (let i = events.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [events[i], events[j]] = [events[j], events[i]];
     }
-    // Sort by duration (Labs first)
-    events.sort((a, b) => b.duration - a.duration);
+
+    // Sort by Duration (Lab first) -> Frequency (5-timers first)
+    events.sort((a, b) => {
+        if (b.duration !== a.duration) return b.duration - a.duration;
+        const freqA = freqMap.get(a.subjectId) || 0;
+        const freqB = freqMap.get(b.subjectId) || 0;
+        return freqB - freqA;
+    });
 
     // 4. Solve
     console.log(`Scheduling ${events.length} events...`);
     const initialSchedule: Schedule = { bookings: [] };
     const allSlots = getAllSlots();
 
-    const faculties = await prisma.faculty.findMany();
+    const faculties = await prisma.faculty.findMany({ include: { subjects: true } });
     const allFacultyIds = faculties.map(f => f.id);
 
-    const finalSchedule = await solve(events, 0, initialSchedule, allSlots, allFacultyIds, labRooms, theoryRooms);
+    // Create a lookup map for faster processing in recursion
+    const facultyMap = new Map<string, { id: string, maxLoad: number, subjectIds: Set<string> }>();
+    for (const f of faculties) {
+        facultyMap.set(f.id, {
+            id: f.id,
+            maxLoad: f.maxLoad,
+            subjectIds: new Set(f.subjects.map(s => s.id))
+        });
+    }
+
+    const getBaseCode = (code: string | undefined) => code ? code.replace(/L(?=\d)/, '') : "";
+    const baseCodeDurations = new Map<string, number>();
+    for (const e of events) {
+        const dKey = e.sectionId + "-" + getBaseCode(subjectMap.get(e.subjectId));
+        baseCodeDurations.set(dKey, (baseCodeDurations.get(dKey) || 0) + e.duration);
+    }
+
+    const limit = { count: 0, max: 500000 };
+
+    const finalSchedule = await solve(events, 0, initialSchedule, allSlots, allFacultyIds, labRooms, theoryRooms, limit, facultyMap, subjectMap, baseCodeDurations);
 
     if (finalSchedule) {
         console.log("Success! Saving to DB...");
         await saveSchedule(finalSchedule);
         return { success: true };
     } else {
-        console.error("Failed to find a valid schedule.");
-        return { success: false, error: "Constraints too strict. Try adding more rooms or faculties." };
+        console.error("Failed to find a valid schedule or reached iteration limit.");
+        return { success: false, error: "Constraints too strict or calculation timed out. Try adding more faculty or rooms." };
     }
 }
 
@@ -121,18 +165,28 @@ async function solve(
     allSlots: Slot[],
     allFacultyIds: string[],
     labRooms: RoomData[],
-    theoryRooms: RoomData[]
+    theoryRooms: RoomData[],
+    limit: { count: number, max: number },
+    facultyMap: Map<string, { id: string, maxLoad: number, subjectIds: Set<string> }>,
+    subjectMap: Map<string, string>,
+    baseCodeDurations: Map<string, number>
 ): Promise<Schedule | null> {
     if (index >= events.length) {
         return currentSchedule;
     }
 
+    limit.count++;
+    if (limit.count % 100000 === 0) {
+        console.log(`Reached ${limit.count} iterations...`);
+    }
+    if (limit.count > limit.max) {
+        return null; // Stop backtracking if taking too long
+    }
+
     const event = events[index];
 
-    // Find candidate faculty
-    const potentialFaculty = await prisma.faculty.findMany({
-        where: { subjects: { some: { id: event.subjectId } } }
-    });
+    // Find candidate faculty from pre-loaded map instead of querying DB every step
+    const potentialFaculty = Array.from(facultyMap.values()).filter(f => f.subjectIds.has(event.subjectId));
 
     // Determine relevant rooms
     const candidateRooms = event.isLab ? labRooms : theoryRooms;
@@ -141,8 +195,12 @@ async function solve(
     // We will proceed but roomId will be null (or fail if strict).
     // Let's try to assign a room.
 
-    // Try all slots
+    // Randomize slots to prevent deterministic deep loops
     const slots = [...allSlots];
+    for (let i = slots.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [slots[i], slots[j]] = [slots[j], slots[i]];
+    }
 
     for (const slot of slots) {
         // Lab duration check
@@ -173,7 +231,7 @@ async function solve(
 
         // 2. Try faculties
         for (const faculty of potentialFaculty) {
-            if (isValid(event, slot, faculty.id, currentSchedule)) {
+            if (isValid(event, slot, faculty.id, currentSchedule, facultyMap, limit, subjectMap, baseCodeDurations)) {
                 // Double check room is still free (it is, we just checked headers)
                 // But wait, isValid checks section/faculty. We need to check Room too?
                 // We checked room above.
@@ -190,14 +248,14 @@ async function solve(
                 }
 
                 const nextSchedule = { bookings: [...currentSchedule.bookings, ...newBookings] };
-                const result = await solve(events, index + 1, nextSchedule, allSlots, allFacultyIds, labRooms, theoryRooms);
+                const result = await solve(events, index + 1, nextSchedule, allSlots, allFacultyIds, labRooms, theoryRooms, limit, facultyMap, subjectMap, baseCodeDurations);
                 if (result) return result;
             }
         }
 
         // Fallback: No specific faculty found/available, try NULL faculty (TBA)
-        if (potentialFaculty.length === 0 || true) {
-            if (isValid(event, slot, null, currentSchedule)) {
+        if (potentialFaculty.length === 0) {
+            if (isValid(event, slot, null, currentSchedule, facultyMap, limit, subjectMap, baseCodeDurations)) {
                 const newBookings: Booking[] = [];
                 for (let i = 0; i < event.duration; i++) {
                     newBookings.push({
@@ -209,7 +267,7 @@ async function solve(
                     });
                 }
                 const nextSchedule = { bookings: [...currentSchedule.bookings, ...newBookings] };
-                const result = await solve(events, index + 1, nextSchedule, allSlots, allFacultyIds, labRooms, theoryRooms);
+                const result = await solve(events, index + 1, nextSchedule, allSlots, allFacultyIds, labRooms, theoryRooms, limit, facultyMap, subjectMap, baseCodeDurations);
                 if (result) return result;
             }
         }
@@ -231,7 +289,16 @@ function isRoomFree(roomId: string, startSlot: Slot, duration: number, schedule:
     return true;
 }
 
-function isValid(event: Event, startSlot: Slot, facultyId: string | null, schedule: Schedule): boolean {
+function isValid(
+    event: Event,
+    startSlot: Slot,
+    facultyId: string | null,
+    schedule: Schedule,
+    facultyMap: Map<string, { maxLoad: number }>,
+    limit: any,
+    subjectMap: Map<string, string>,
+    baseCodeDurations: Map<string, number>
+): boolean {
     // Subject constraint
     if (event.duration === 1) {
         const sameSubjectOnDay = schedule.bookings.some(b =>
@@ -242,13 +309,52 @@ function isValid(event: Event, startSlot: Slot, facultyId: string | null, schedu
         if (sameSubjectOnDay) return false;
     }
 
-    // Faculty Max Load Constraint
+    const getBaseCode = (code: string | undefined) => code ? code.replace(/L(?=\d)/, '') : "";
+    const currentBaseCode = getBaseCode(subjectMap.get(event.subjectId));
+
+    // Single Faculty per Subject per Section constraint (Including Lab and Theory)
+    let previouslyAssignedFaculty: string | null | undefined = null;
+
     if (facultyId) {
+        previouslyAssignedFaculty = schedule.bookings.find(b => {
+            if (b.sectionId !== event.sectionId) return false;
+            return getBaseCode(subjectMap.get(b.subjectId)) === currentBaseCode;
+        })?.facultyId;
+
+        if (previouslyAssignedFaculty && previouslyAssignedFaculty !== facultyId && limit.count < 50000) {
+            return false; // Force the same faculty to teach all sessions of this subject (Theory + Lab) for this section
+        }
+    }
+
+    // Faculty Load Constraints
+    if (facultyId) {
+        // Daily Limit
         const facultyDaily = schedule.bookings.filter(b =>
             b.facultyId === facultyId &&
             b.slot.day === startSlot.day
         ).length;
-        if (facultyDaily >= 4) return false;
+        if (facultyDaily + event.duration > 4) return false;
+
+        // Weekly Limit (MaxLoad constraint)
+        const facultyWeekly = schedule.bookings.filter(b =>
+            b.facultyId === facultyId
+        ).length;
+
+        const fData = facultyMap.get(facultyId);
+        if (fData) {
+            // If this is the FIRST time assigning this faculty to this base code...
+            // the faculty MUST have enough room for the ENTIRE base code duration.
+            if (!previouslyAssignedFaculty && limit.count < 50000) {
+                const totalBaseCodeHours = baseCodeDurations.get(event.sectionId + "-" + currentBaseCode) || event.duration;
+                if (facultyWeekly + totalBaseCodeHours > fData.maxLoad) {
+                    return false; // Early pruning: Not enough load to take the whole course 
+                }
+            } else {
+                if (facultyWeekly + event.duration > fData.maxLoad) {
+                    return false;
+                }
+            }
+        }
     }
 
     for (let i = 0; i < event.duration; i++) {
