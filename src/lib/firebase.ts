@@ -12,7 +12,9 @@ const firebaseConfig = {
 
 // Initialize Firebase (Singleton pattern)
 // Prevent error during Next.js static build if env vars are missing
-const app = firebaseConfig.apiKey && !getApps().length ? initializeApp(firebaseConfig) : getApp();
-const auth = firebaseConfig.apiKey ? getAuth(app) : null as any;
+const app = !getApps().length
+    ? (firebaseConfig.apiKey ? initializeApp(firebaseConfig) : null as any)
+    : getApp();
+const auth = app ? getAuth(app) : null as any;
 
 export { app, auth };
