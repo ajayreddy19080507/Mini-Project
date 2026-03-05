@@ -200,8 +200,7 @@ export default function ManageSectionsPage() {
                                     {canEdit && (
                                         <Button
                                             variant="ghost"
-                                            size="icon"
-                                            className="text-red-500 opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-50"
+                                            className="text-red-500 opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-50 p-2"
                                             onClick={() => handleDelete(section.id)}
                                         >
                                             <Trash2 className="w-4 h-4" />
