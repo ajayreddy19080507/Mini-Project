@@ -1,0 +1,3362 @@
+[
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmpi0009f1fcqamavmgn",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "MON",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmpi0009f1fcqamavmgn",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "MON",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmpx000af1fcwbavu472",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "TUE",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmpx000af1fcwbavu472",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "TUE",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmpi0009f1fcqamavmgn",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "WED",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmpi0009f1fcqamavmgn",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "WED",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxmwv000pf1fcurg9eauw",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmpx000af1fcwbavu472",
+    "facultyId": "cmmarxn33000zf1fcj7k6wk8x",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "TUE",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmpx000af1fcwbavu472",
+    "facultyId": "cmmarxn33000zf1fcj7k6wk8x",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "TUE",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxn33000zf1fcj7k6wk8x",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "SAT",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxn33000zf1fcj7k6wk8x",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxn33000zf1fcj7k6wk8x",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxn33000zf1fcj7k6wk8x",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxn33000zf1fcj7k6wk8x",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmpi0009f1fcqamavmgn",
+    "facultyId": "cmmarxn2i000yf1fcn5nha0xo",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "WED",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmpi0009f1fcqamavmgn",
+    "facultyId": "cmmarxn2i000yf1fcn5nha0xo",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "WED",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxn2i000yf1fcn5nha0xo",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxn2i000yf1fcn5nha0xo",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxn2i000yf1fcn5nha0xo",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "FRI",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxn2i000yf1fcn5nha0xo",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmhr0000f1fc2zn2eavu",
+    "facultyId": "cmmarxn2i000yf1fcn5nha0xo",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmpx000af1fcwbavu472",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "MON",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmpx000af1fcwbavu472",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "MON",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "WED",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmig0001f1fca8g4drmy",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmv2000mf1fcvr2lcnqy",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "THU",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmv2000mf1fcvr2lcnqy",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "THU",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "SAT",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "THU",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001sf1fcu364wp18",
+    "slot": {
+      "day": "FRI",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "TUE",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmvj000nf1fclhmsgh7l",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "SAT",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmvj000nf1fclhmsgh7l",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "SAT",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "FRI",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "TUE",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "THU",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmvy000of1fcbcj4ujgk",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "FRI",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmvy000of1fcbcj4ujgk",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "FRI",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmu7000kf1fcyd68ukbv",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmv2000mf1fcvr2lcnqy",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "MON",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmv2000mf1fcvr2lcnqy",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "MON",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "FRI",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "SAT",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "THU",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "MON",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmvj000nf1fclhmsgh7l",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "TUE",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmvj000nf1fclhmsgh7l",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "TUE",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001sf1fcu364wp18",
+    "slot": {
+      "day": "SAT",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001sf1fcu364wp18",
+    "slot": {
+      "day": "FRI",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "MON",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmvy000of1fcbcj4ujgk",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "MON",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmvy000of1fcbcj4ujgk",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "MON",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmu7000kf1fcyd68ukbv",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "SAT",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmv2000mf1fcvr2lcnqy",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "TUE",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmv2000mf1fcvr2lcnqy",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "TUE",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "TUE",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001tf1fc65qivr6g",
+    "slot": {
+      "day": "FRI",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "WED",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmvj000nf1fclhmsgh7l",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "THU",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmvj000nf1fclhmsgh7l",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "THU",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001sf1fcu364wp18",
+    "slot": {
+      "day": "SAT",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "MON",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001sf1fcu364wp18",
+    "slot": {
+      "day": "WED",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001sf1fcu364wp18",
+    "slot": {
+      "day": "THU",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmvy000of1fcbcj4ujgk",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "SAT",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmvy000of1fcbcj4ujgk",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001vf1fca3xolew4",
+    "slot": {
+      "day": "SAT",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmu7000kf1fcyd68ukbv",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "WED",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmv2000mf1fcvr2lcnqy",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "FRI",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmv2000mf1fcvr2lcnqy",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "FRI",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001sf1fcu364wp18",
+    "slot": {
+      "day": "THU",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "MON",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "FRI",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001sf1fcu364wp18",
+    "slot": {
+      "day": "TUE",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn5t0013f1fcmh81e5ta",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "WED",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmvj000nf1fclhmsgh7l",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "MON",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmvj000nf1fclhmsgh7l",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "MON",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "WED",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "MON",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn730015f1fcwzlmwec7",
+    "roomId": "cmmarykj4001rf1fcnsku2473",
+    "slot": {
+      "day": "THU",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmvy000of1fcbcj4ujgk",
+    "facultyId": "cmmarxnbh001cf1fcta96p7u9",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "WED",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmvy000of1fcbcj4ujgk",
+    "facultyId": "cmmarxnbh001cf1fcta96p7u9",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "WED",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmu7000kf1fcyd68ukbv",
+    "facultyId": "cmmarxnbh001cf1fcta96p7u9",
+    "roomId": "cmmarykj4001sf1fcu364wp18",
+    "slot": {
+      "day": "TUE",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmv2000mf1fcvr2lcnqy",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "TUE",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmv2000mf1fcvr2lcnqy",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "TUE",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmr6000df1fctogzm9sg",
+    "facultyId": "cmmarxn420010f1fcso8yfve2",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmvj000nf1fclhmsgh7l",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "THU",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmvj000nf1fclhmsgh7l",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "THU",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmrj000ef1fcd6qqkivu",
+    "facultyId": "cmmarxn580012f1fcqv5ekqn8",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmvy000of1fcbcj4ujgk",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "THU",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmvy000of1fcbcj4ujgk",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001uf1fc0e7srse4",
+    "slot": {
+      "day": "THU",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmu7000kf1fcyd68ukbv",
+    "facultyId": "cmmarxn6f0014f1fcavsucvmk",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmkb0005f1fc2xj1ab8h",
+    "facultyId": "cmmarxn01000uf1fcghnw6b28",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmkb0005f1fc2xj1ab8h",
+    "facultyId": "cmmarxn01000uf1fcghnw6b28",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmkb0005f1fc2xj1ab8h",
+    "facultyId": "cmmarxn01000uf1fcghnw6b28",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmkt0006f1fccbjp4p5p",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmkt0006f1fccbjp4p5p",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmkt0006f1fccbjp4p5p",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmo90007f1fc24rt8a96",
+    "facultyId": "cmmarxn1c000wf1fc6yi8bvs6",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmo90007f1fc24rt8a96",
+    "facultyId": "cmmarxn1c000wf1fc6yi8bvs6",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmo90007f1fc24rt8a96",
+    "facultyId": "cmmarxn1c000wf1fc6yi8bvs6",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmp40008f1fccr975zrc",
+    "facultyId": "cmmarxn1x000xf1fcnw8min0v",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmqb000bf1fc1kem6mil",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmqb000bf1fc1kem6mil",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxng7001if1fclp7oijwr",
+    "subjectId": "cmmarxmqq000cf1fc2tgqchqa",
+    "facultyId": null,
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmkb0005f1fc2xj1ab8h",
+    "facultyId": "cmmarxn01000uf1fcghnw6b28",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmkb0005f1fc2xj1ab8h",
+    "facultyId": "cmmarxn01000uf1fcghnw6b28",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmkb0005f1fc2xj1ab8h",
+    "facultyId": "cmmarxn01000uf1fcghnw6b28",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmkt0006f1fccbjp4p5p",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmkt0006f1fccbjp4p5p",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmkt0006f1fccbjp4p5p",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmo90007f1fc24rt8a96",
+    "facultyId": "cmmarxn1c000wf1fc6yi8bvs6",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmo90007f1fc24rt8a96",
+    "facultyId": "cmmarxn1c000wf1fc6yi8bvs6",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmo90007f1fc24rt8a96",
+    "facultyId": "cmmarxn1c000wf1fc6yi8bvs6",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmp40008f1fccr975zrc",
+    "facultyId": "cmmarxn1x000xf1fcnw8min0v",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmqb000bf1fc1kem6mil",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmqb000bf1fc1kem6mil",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxngs001jf1fc2xtmpy61",
+    "subjectId": "cmmarxmqq000cf1fc2tgqchqa",
+    "facultyId": null,
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmiz0002f1fcf7v4dppj",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmjc0003f1fcto9irga7",
+    "facultyId": "cmmarxmyr000sf1fct23gvavd",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmju0004f1fcjzpoz6u2",
+    "facultyId": "cmmarxmzf000tf1fc2u0tha0l",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmkb0005f1fc2xj1ab8h",
+    "facultyId": "cmmarxn01000uf1fcghnw6b28",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmkb0005f1fc2xj1ab8h",
+    "facultyId": "cmmarxn01000uf1fcghnw6b28",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmkb0005f1fc2xj1ab8h",
+    "facultyId": "cmmarxn01000uf1fcghnw6b28",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmkt0006f1fccbjp4p5p",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmkt0006f1fccbjp4p5p",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmkt0006f1fccbjp4p5p",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmo90007f1fc24rt8a96",
+    "facultyId": "cmmarxn1c000wf1fc6yi8bvs6",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmo90007f1fc24rt8a96",
+    "facultyId": "cmmarxn1c000wf1fc6yi8bvs6",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmo90007f1fc24rt8a96",
+    "facultyId": "cmmarxn1c000wf1fc6yi8bvs6",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmp40008f1fccr975zrc",
+    "facultyId": "cmmarxn1x000xf1fcnw8min0v",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmqb000bf1fc1kem6mil",
+    "facultyId": "cmmarxmxk000qf1fcftnqq9v4",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmqb000bf1fc1kem6mil",
+    "facultyId": "cmmarxmy7000rf1fcjvyqshtv",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnh7001kf1fc03cxfn5v",
+    "subjectId": "cmmarxmqq000cf1fc2tgqchqa",
+    "facultyId": null,
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnhp001lf1fccfctlaae",
+    "subjectId": "cmmarxmqq000cf1fc2tgqchqa",
+    "facultyId": null,
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxnfe001hf1fci067wfpr",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxna2001af1fcon4fd2jf",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxne4001gf1fc70gk4a2x",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxni3001mf1fcfcvzm8v3",
+    "subjectId": "cmmarxmqq000cf1fc2tgqchqa",
+    "facultyId": null,
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxnfe001hf1fci067wfpr",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxnfe001hf1fci067wfpr",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn890017f1fcrxgp6ghm",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxne4001gf1fc70gk4a2x",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnik001nf1fcykxylv4k",
+    "subjectId": "cmmarxmqq000cf1fc2tgqchqa",
+    "facultyId": null,
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxnfe001hf1fci067wfpr",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxna2001af1fcon4fd2jf",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxna2001af1fcon4fd2jf",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxna2001af1fcon4fd2jf",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxna2001af1fcon4fd2jf",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnj1001of1fc47kee5nn",
+    "subjectId": "cmmarxmqq000cf1fc2tgqchqa",
+    "facultyId": null,
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxnfe001hf1fci067wfpr",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxnfe001hf1fci067wfpr",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 3
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmrz000ff1fc356nssbe",
+    "facultyId": "cmmarxn4o0011f1fcnbf736e7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn890017f1fcrxgp6ghm",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn7o0016f1fctz4gs6f7",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 4
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn890017f1fcrxgp6ghm",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmsd000gf1fcfmcvblk8",
+    "facultyId": "cmmarxn890017f1fcrxgp6ghm",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "THU",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxna2001af1fcon4fd2jf",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmst000hf1fc6pz3vcr8",
+    "facultyId": "cmmarxn9d0019f1fcgchhjhr9",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "SAT",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 2
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmta000if1fcvz0t9nza",
+    "facultyId": "cmmarxndi001ff1fc7hdg6nsz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "TUE",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 5
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmtr000jf1fcmnpffqa4",
+    "facultyId": "cmmarxnc5001df1fciuv2a08p",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "FRI",
+      "period": 1
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxn0p000vf1fcggqveqpz",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "WED",
+      "period": 7
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmum000lf1fcrum3kx41",
+    "facultyId": "cmmarxne4001gf1fc70gk4a2x",
+    "roomId": "cmmarykj4001qf1fc050k0750",
+    "slot": {
+      "day": "MON",
+      "period": 6
+    }
+  },
+  {
+    "sectionId": "cmmarxnjb001pf1fcclj8ymzi",
+    "subjectId": "cmmarxmqq000cf1fc2tgqchqa",
+    "facultyId": null,
+    "roomId": null,
+    "slot": {
+      "day": "TUE",
+      "period": 3
+    }
+  }
+]

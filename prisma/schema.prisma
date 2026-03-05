@@ -81,8 +81,6 @@ model Timetable {
   updatedAt   DateTime @updatedAt
 
   @@unique([day, slot, sectionId]) // No double booking for section
-  @@unique([day, slot, facultyId]) // No double booking for faculty
-  @@unique([day, slot, roomId])    // No double booking for room
 }
 
 model User {

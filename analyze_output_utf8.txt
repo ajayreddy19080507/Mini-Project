@@ -1,0 +1,41 @@
+Analyzing sample_data_updated (6).xlsx...
+
+--- Overview ---
+Subjects: 25
+Faculty: 28
+Sections: 8
+Semesters: 2
+Section CSE-3-A requires 42/42 periods.
+Section CSE-3-B requires 42/42 periods.
+Section CSE-3-C requires 42/42 periods.
+Section CSE-2-A requires 42/42 periods.
+Section CSE-2-B requires 42/42 periods.
+Section CSE-2-C requires 42/42 periods.
+Section CSE-2-D requires 42/42 periods.
+Section CSE-2-E requires 42/42 periods.
+
+--- Faculty Subject Coverage ---
+CS101 is required for 3 sections. Capable Faculty: Sai Phani , Jagadeesh
+CS102 is required for 3 sections. Capable Faculty: Bhaskar, Subba Rao
+CS103 is required for 3 sections. Capable Faculty: Sharmila Devi
+CS104 is required for 3 sections. Capable Faculty: Samuel
+CS105 is required for 3 sections. Capable Faculty: Bholaxmi
+CS106 is required for 3 sections. Capable Faculty: Lavanya
+CS107 is required for 3 sections. Capable Faculty: Raja
+CS108 is required for 3 sections. Capable Faculty: Sravanthi
+CS109 is required for 3 sections. Capable Faculty: Farook
+CSL101 is required for 3 sections. Capable Faculty: Sai Phani , Jagadeesh
+CSL102 is required for 3 sections. Capable Faculty: Bhaskar, Subba Rao
+CS110 is required for 3 sections. Capable Faculty: Bhaskar, Sharmila Devi, Samuel, Bholaxmi
+CS201 is required for 5 sections. Capable Faculty: Riyaz Naik, Giri Raj
+CS202 is required for 5 sections. Capable Faculty: Nazia banu, Chaintanya, Nagendrudu
+CS203 is required for 5 sections. Capable Faculty: Amareshwar
+CS204 is required for 5 sections. Capable Faculty: Vindhya Vasini, Vishwanadh, Ershad
+CS205 is required for 5 sections. Capable Faculty: Praveen, Haritha, Ramachandrudu
+CS206 is required for 5 sections. Capable Faculty: Mallikarjunna
+CS207 is required for 5 sections. Capable Faculty: Girish babu, Mary Swetha
+CS208 is required for 5 sections. Capable Faculty: Chaintanya, Nagendrudu, Jagadeeswara
+CS209 is required for 5 sections. Capable Faculty: Raja, Sreelatha
+CSL201 is required for 5 sections. Capable Faculty: Riyaz Naik, Giri Raj
+CSL202 is required for 5 sections. Capable Faculty: Nazia banu, Chaintanya, Nagendrudu
+CSL208 is required for 5 sections. Capable Faculty: Amareshwar, Chaintanya, Nagendrudu, Jagadeeswara
