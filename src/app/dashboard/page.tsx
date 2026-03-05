@@ -6,6 +6,8 @@ import { prisma } from "@/lib/db";
 import { GenerateButton } from "@/components/GenerateButton";
 import { ResetButton } from "@/components/ResetButton";
 
+export const dynamic = "force-dynamic";
+
 export default async function Dashboard() {
     // Fetch real stats
     const facultyCount = await prisma.faculty.count();
